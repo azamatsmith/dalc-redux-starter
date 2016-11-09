@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-				<h2 className="text-center">DALC-REDUX-STARTER</h2>
+				<h2 className="text-center">DALC Redux Starter</h2>
 				<Landing />
       </div>
     );
