@@ -1,5 +1,10 @@
 ### Jump in and get started: 
-`git clone https://github.com/va-dalc/dalc-redux-starter`
+
+```
+	git clone https://github.com/va-dalc/dalc-redux-starter
+	cd dalc-redux-starter
+	npm install
+```
 ___
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
