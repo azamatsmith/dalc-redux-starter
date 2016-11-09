@@ -95,12 +95,16 @@ my-app/
     index.html
     favicon.ico
   src/
-    App.css
-    App.js
-    App.test.js
-    index.css
+		actions/
+			index.js
+		components/
+			App.js
+			Landing.js
+		reducers/
+			reducer_main.js
     index.js
-    logo.svg
+    reducers.js
+    routes.js
 ```
 
 For the project to build, **these files must exist with exact filenames**:
