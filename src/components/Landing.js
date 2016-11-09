@@ -4,12 +4,19 @@ import {handleTest} from '../actions/index';
 
 class Landing extends Component {
 	render() {
+		const {test, handleTest} = this.props;
 		return (
 			<div className="col-sm-8 col-sm-offset-2">
 				<div className="well text-center">
 					<h3>This is the landing page</h3>	
-					<h4>Test is {this.props.test ? 'TRUE' : 'FALSE'}</h4>
-					<button className="btn btn-default" onClick={() => this.props.handleTest(!this.props.test)}>Toggle Test</button>
+					<h4>Test is:  
+						<span className={test ? 'text-success': 'text-danger'}>
+							{test ? ' TRUE' : ' FALSE'}
+						</span>
+					</h4>
+					<button className="btn btn-default" onClick={() => handleTest(!test)}>
+						Toggle Test
+					</button>
 				</div>	
 			</div>
 		);	
