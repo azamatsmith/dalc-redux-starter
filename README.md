@@ -1,9 +1,9 @@
 ### Jump in and get started: 
 
 ```
-	git clone https://github.com/va-dalc/dalc-redux-starter
-	cd dalc-redux-starter
-	npm install
+git clone https://github.com/va-dalc/dalc-redux-starter
+cd dalc-redux-starter
+npm install
 ```
 ___
 
