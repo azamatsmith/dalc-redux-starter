@@ -1,4 +1,4 @@
-Jump in and get started: 
+### Jump in and get started: 
 `https://github.com/va-dalc/dalc-redux-starter`
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
